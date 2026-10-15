@@ -1,0 +1,48 @@
+# Data files (too large for GitHub)
+merged_lincs_combined.csv
+dataset_splits/
+*.csv
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Legacy (original monolithic scripts, kept locally only)
+legacy/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Trae internal
+.trae/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
